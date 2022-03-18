@@ -14,6 +14,8 @@
 		D83BF7BA27E49A0800F1617A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D83BF7B927E49A0800F1617A /* Assets.xcassets */; };
 		D83BF7BD27E49A0800F1617A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D83BF7BB27E49A0800F1617A /* LaunchScreen.storyboard */; };
 		D8F54AAE27E4A146001FCCD9 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F54AAD27E4A146001FCCD9 /* MainTabBarController.swift */; };
+		D8F54AB027E4A2CB001FCCD9 /* PhotosCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F54AAF27E4A2CB001FCCD9 /* PhotosCollectionViewController.swift */; };
+		D8F54AB427E4A41D001FCCD9 /* FavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F54AB327E4A41D001FCCD9 /* FavoriteViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +29,8 @@
 		D83BF7BC27E49A0800F1617A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D83BF7BE27E49A0800F1617A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D8F54AAD27E4A146001FCCD9 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		D8F54AAF27E4A2CB001FCCD9 /* PhotosCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosCollectionViewController.swift; sourceTree = "<group>"; };
+		D8F54AB327E4A41D001FCCD9 /* FavoriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewController.swift; sourceTree = "<group>"; };
 		F7541950124A5249FA69CE80 /* Pods_UnsplashLibrary_TestApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UnsplashLibrary_TestApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -111,6 +115,8 @@
 			isa = PBXGroup;
 			children = (
 				D8F54AAD27E4A146001FCCD9 /* MainTabBarController.swift */,
+				D8F54AAF27E4A2CB001FCCD9 /* PhotosCollectionViewController.swift */,
+				D8F54AB327E4A41D001FCCD9 /* FavoriteViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -241,6 +247,8 @@
 				D83BF7B127E49A0700F1617A /* AppDelegate.swift in Sources */,
 				D8F54AAE27E4A146001FCCD9 /* MainTabBarController.swift in Sources */,
 				D83BF7B327E49A0700F1617A /* SceneDelegate.swift in Sources */,
+				D8F54AB027E4A2CB001FCCD9 /* PhotosCollectionViewController.swift in Sources */,
+				D8F54AB427E4A41D001FCCD9 /* FavoriteViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
