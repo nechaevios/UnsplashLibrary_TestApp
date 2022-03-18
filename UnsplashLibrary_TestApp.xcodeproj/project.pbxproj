@@ -80,15 +80,47 @@
 		D83BF7AF27E49A0700F1617A /* UnsplashLibrary_TestApp */ = {
 			isa = PBXGroup;
 			children = (
-				D83BF7B027E49A0700F1617A /* AppDelegate.swift */,
-				D83BF7B227E49A0700F1617A /* SceneDelegate.swift */,
-				D83BF7B427E49A0700F1617A /* ViewController.swift */,
-				D83BF7B627E49A0700F1617A /* Main.storyboard */,
-				D83BF7B927E49A0800F1617A /* Assets.xcassets */,
-				D83BF7BB27E49A0800F1617A /* LaunchScreen.storyboard */,
-				D83BF7BE27E49A0800F1617A /* Info.plist */,
+				D8F54AAA27E4A08D001FCCD9 /* App */,
+				D8F54AAB27E4A09B001FCCD9 /* ViewControllers */,
+				D8F54AAC27E4A0A5001FCCD9 /* StoryBoards */,
+				D8F54AA927E4A080001FCCD9 /* Resources */,
 			);
 			path = UnsplashLibrary_TestApp;
+			sourceTree = "<group>";
+		};
+		D8F54AA927E4A080001FCCD9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D83BF7B927E49A0800F1617A /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D8F54AAA27E4A08D001FCCD9 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				D83BF7BE27E49A0800F1617A /* Info.plist */,
+				D83BF7BB27E49A0800F1617A /* LaunchScreen.storyboard */,
+				D83BF7B027E49A0700F1617A /* AppDelegate.swift */,
+				D83BF7B227E49A0700F1617A /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		D8F54AAB27E4A09B001FCCD9 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D83BF7B427E49A0700F1617A /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		D8F54AAC27E4A0A5001FCCD9 /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				D83BF7B627E49A0700F1617A /* Main.storyboard */,
+			);
+			path = StoryBoards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -360,7 +392,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = RV92NSXQKZ;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = UnsplashLibrary_TestApp/Info.plist;
+				INFOPLIST_FILE = UnsplashLibrary_TestApp/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -390,7 +422,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = RV92NSXQKZ;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = UnsplashLibrary_TestApp/Info.plist;
+				INFOPLIST_FILE = UnsplashLibrary_TestApp/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
