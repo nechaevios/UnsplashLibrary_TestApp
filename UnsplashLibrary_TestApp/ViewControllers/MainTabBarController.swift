@@ -7,7 +7,7 @@
 
 import UIKit
 
-class MainTabBarController: UITabBarController {
+final class MainTabBarController: UITabBarController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -17,7 +17,6 @@ class MainTabBarController: UITabBarController {
     }
 
     private func setupUI() {
-        tabBar.barTintColor = .blue
         tabBar.backgroundColor = .white
     }
 

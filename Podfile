@@ -8,5 +8,6 @@ target 'UnsplashLibrary_TestApp' do
   # Pods for UnsplashLibrary_TestApp
 
 pod 'SwiftLint'
+pod 'SDWebImage', '~> 5.0'
 
 end
